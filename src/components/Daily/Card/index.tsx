@@ -19,7 +19,10 @@ function Card(props: chosenData) {
         L:{props.min}
         {celcius}
       </div>
-      <img src={`https://openweathermap.org/img/wn/${props.icon}@2x.png`}></img>
+      <img
+        src={`https://openweathermap.org/img/wn/${props.icon}@2x.png`}
+        alt="weatherIcon"
+      ></img>
       <div>{props.forecast}</div>
     </div>
   );

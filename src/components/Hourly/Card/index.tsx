@@ -13,6 +13,7 @@ function Card(props: chosenData) {
     <div className="hourlyCard">
       <div>{props.time.slice(0, props.time.length - 3)}</div>
       <img
+        alt="weather icon"
         id="smallImg"
         src={`https://openweathermap.org/img/wn/${props.icon}@2x.png`}
       ></img>
