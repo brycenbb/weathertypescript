@@ -1,0 +1,24 @@
+.hourlyCard {
+  width: 100px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightseagreen;
+  justify-content: space-between;
+  border-right: 0.2px solid black;
+}
+
+#hourly {
+  display: flex;
+  /* gap: 2px; */
+  justify-content: center;
+  font-size: 25px;
+}
+
+.hide {
+  display: none;
+}
+
+#smallImg {
+  width: 100px;
+}
